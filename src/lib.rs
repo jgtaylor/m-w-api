@@ -1,10 +1,9 @@
 #[macro_use]
 extern crate serde;
 
-pub mod Entry;
+pub mod entry;
 
-pub use serde::de::{self, Deserializer, SeqAccess, Visitor};
-pub use serde::{Deserialize, Serialize};
+pub use serde::de::{Deserialize, Visitor, SeqAccess, Error};
 pub use std::fmt;
 pub use std::marker::PhantomData;
 pub use std::ops::Deref;
@@ -15,10 +14,10 @@ macro_rules! tagged_string {
         #[derive(Debug, Clone, Serialize)]
         pub struct $name(String);
 
-        impl<'de> Deserialize<'de> for $name {
+        impl<'de> serde::de::Deserialize<'de> for $name {
             fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
             where
-                D: Deserializer<'de>,
+                D: serde::de::Deserializer<'de>,
             {
                 deserializer.deserialize_seq(TaggedStringVisitor)
             }
@@ -26,24 +25,24 @@ macro_rules! tagged_string {
 
         struct TaggedStringVisitor;
 
-        impl<'de> Visitor<'de> for TaggedStringVisitor {
+        impl<'de> serde::de::Visitor<'de> for TaggedStringVisitor {
             type Value = $name;
 
-            fn expecting(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {
+            fn expecting(&self, formatter: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
                 formatter.write_str("an array with a tag and a string")
             }
 
             fn visit_seq<A>(self, mut seq: A) -> Result<$name, A::Error>
             where
-                A: SeqAccess<'de>,
+                A: serde::de::SeqAccess<'de>,
             {
                 // Get and validate the tag.
                 let tag: Option<String> = seq.next_element()?;
-                let tag = tag.ok_or_else(|| de::Error::invalid_length(0, &self))?;
+                let tag = tag.ok_or_else(|| serde::de::Error::invalid_length(0, &self))?;
 
                 // Optionally, check that the tag matches the expected literal.
                 if tag != $discard_literal {
-                    return Err(de::Error::custom(format!(
+                    return Err(serde::de::Error::custom(format!(
                         "expected tag `{}`, found `{}`",
                         $discard_literal, tag
                     )));
