@@ -1,3 +1,5 @@
+use super::sense_sequence::SenseSequence;
+
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct DefinitionSection {
     #[serde(rename = "vd")]

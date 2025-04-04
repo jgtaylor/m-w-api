@@ -10,3 +10,5 @@ pub enum Sequence {
     BindingSubstitute(BindingSubstitute),
     ParenSenseSequence(ParenSenseSequence),
 }
+
+pub type SenseSequence = Vec<Sequence>;
