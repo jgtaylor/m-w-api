@@ -40,9 +40,9 @@ mod test {
             ]
         ]
         "#;
-        let result: Result<Vec<VerbalIllustration>, _> = serde_json::from_str(&data);
+        let result: Result<VerbalIllustration, _> = serde_json::from_str(&data);
         let _ = match result {
-            Ok(res) => res,
+            Ok(res) => println!("{:#?}", res),
             Err(err) => panic!("{}", err.to_string()),
         };
     }
