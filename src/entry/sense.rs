@@ -1,4 +1,8 @@
-use super::{pronunciation::Pronunciation, Etymology, GeneralLabel, Inflection, SubjectStatusLabel, SenseSpecificGrammaticalLabel, Variant};
+use super::{
+    Etymology, GeneralLabel, Inflection, SenseSpecificGrammaticalLabel, SubjectStatusLabel,
+    Variant, definition_text::DefinitionTextType, divided_sense::DividedSense,
+    pronunciation::Pronunciation,
+};
 
 #[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct Sense {

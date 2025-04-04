@@ -1,6 +1,6 @@
 use super::{
     Etymology, GeneralLabel, Inflection, SenseSpecificGrammaticalLabel, SubjectStatusLabel,
-    Variant, pronunciation::Pronunciation,
+    Variant, definition_text::DefinitionTextType, pronunciation::Pronunciation,
 };
 
 #[derive(Clone, Debug, Deserialize, Serialize)]
