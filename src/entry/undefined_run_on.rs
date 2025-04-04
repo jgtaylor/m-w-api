@@ -4,6 +4,8 @@ use super::{
     pronunciation::Pronunciation,
     usage::Usage,
     variant::Variant,
+    verbal_illustration::VerbalIllustration,
+    within_sense_gram::WithinSenseGram,
 };
 
 #[derive(Debug, Clone, Serialize, Deserialize)]

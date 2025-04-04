@@ -3,11 +3,6 @@ extern crate serde;
 
 pub mod entry;
 
-pub use serde::de::{Deserialize, Visitor, SeqAccess, Error};
-pub use std::fmt;
-pub use std::marker::PhantomData;
-pub use std::ops::Deref;
-
 #[macro_export]
 macro_rules! tagged_string {
     ($name:ident, $discard_literal:expr) => {
@@ -50,7 +45,7 @@ macro_rules! tagged_string {
 
                 // Get the next element as the defining string.
                 let value: Option<String> = seq.next_element()?;
-                let value = value.ok_or_else(|| de::Error::invalid_length(1, &self))?;
+                let value = value.ok_or_else(|| serde::de::Error::invalid_length(1, &self))?;
                 Ok($name(value))
             }
         }
@@ -64,50 +59,50 @@ macro_rules! tagged_vec {
         #[derive(Debug, Clone, Serialize)]
         pub struct $name(pub Vec<$inner>);
 
-        impl Deref for $name {
+        impl std::ops::Deref for $name {
             type Target = Vec<$inner>;
             fn deref(&self) -> &Self::Target {
                 &self.0
             }
         }
 
-        impl<'de> Deserialize<'de> for $name {
+        impl<'de> serde::de::Deserialize<'de> for $name {
             fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
             where
-                D: Deserializer<'de>,
+                D: serde::de::Deserializer<'de>,
             {
                 deserializer.deserialize_seq(TagVisitor::<$tag, $inner, $name> {
-                    marker: PhantomData,
+                    marker: std::marker::PhantomData,
                 })
             }
         }
 
         struct TagVisitor<T, U, V> {
-            marker: PhantomData<(T, U, V)>,
+            marker: std::marker::PhantomData<(T, U, V)>,
         }
 
-        impl<'de, T, U, V> Visitor<'de> for TagVisitor<T, U, V>
+        impl<'de, T, U, V> serde::de::Visitor<'de> for TagVisitor<T, U, V>
         where
-            T: Deserialize<'de>,
-            U: Deserialize<'de>,
+            T: serde::de::Deserialize<'de>,
+            U: serde::de::Deserialize<'de>,
             V: From<Vec<U>>,
         {
             type Value = V;
 
-            fn expecting(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {
+            fn expecting(&self, formatter: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
                 formatter.write_str("an array with a tag and an array of inner elements")
             }
 
             fn visit_seq<A>(self, mut seq: A) -> Result<V, A::Error>
             where
-                A: SeqAccess<'de>,
+                A: serde::de::SeqAccess<'de>,
             {
                 // Skip the tag element.
                 let _tag: Option<T> = seq.next_element()?;
                 // Deserialize the inner vector.
                 let v: Vec<U> = seq
                     .next_element()?
-                    .ok_or_else(|| de::Error::invalid_length(1, &self))?;
+                    .ok_or_else(|| serde::de::Error::invalid_length(1, &self))?;
                 Ok(V::from(v))
             }
         }

@@ -36,6 +36,15 @@ pub use table::Table;
 
 pub mod pronunciation;
 pub mod verbal_illustration;
+pub mod within_sense_gram;
+pub mod sense_sequence;
+pub mod sense;
+pub mod truncated_sense;
+pub mod divided_sense;
+pub mod definition_text;
+pub mod binding_substitute;
+pub mod run_in;
+pub mod paren_sense_sequence;
 
 
 
