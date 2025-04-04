@@ -10,10 +10,10 @@ pub struct Quote {
 pub struct AttributionOfQuote {
     #[serde(rename = "auth")]
     pub author: String,
-    pub source: String,
+    pub source: Option<String>,
     #[serde(rename = "aqdate")]
-    pub publication_date: String,
-    pub subsource: SubSource,
+    pub publication_date: Option<String>,
+    pub subsource: Option<SubSource>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
