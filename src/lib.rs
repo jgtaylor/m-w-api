@@ -49,6 +49,18 @@ macro_rules! tagged_string {
                 Ok($name(value))
             }
         }
+
+        impl From<$name> for String {
+            fn from(tagged_string: $name) -> Self {
+                tagged_string.0
+            }
+        }
+
+        impl<'a> From<&'a $name> for &'a str {
+            fn from(tagged_string: &'a $name) -> Self {
+                &tagged_string.0
+            }
+        }
     };
 }
 
