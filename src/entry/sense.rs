@@ -27,3 +27,34 @@ pub struct Sense {
     #[serde(rename = "vrs", default)]
     variants: Option<Vec<Variant>>,
 }
+
+
+#[cfg(test)]
+mod test {
+    use super::*;
+
+    fn test_sense_object() {
+        let myjson = r#"
+        [
+			"sense",
+			{
+				"sn": "1 a",
+				"dt": [
+					[
+						"text",
+						"{bc}of, relating to, or dealing with {d_link|aesthetics|aesthetic:2} or the beautiful "
+					],
+					[
+						"vis",
+		    				[
+								{
+									"t": "{wi}aesthetic{\/wi} theories"
+								}
+							]
+					]
+				]
+			}
+		]
+        "#;
+    }
+}
