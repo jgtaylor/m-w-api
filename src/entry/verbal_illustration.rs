@@ -36,14 +36,17 @@ mod test {
                     "aq": {
                         "auth": "T. L. Peacock"
                     }
+                },
+                {
+                    "t": "She was so tired she could hardly {it}get up{\/it} the energy to make dinner."
                 }
             ]
         ]
         "#;
         let result: Result<VerbalIllustration, _> = serde_json::from_str(&data);
-        let _ = match result {
+        match result {
             Ok(res) => println!("{:#?}", res),
-            Err(err) => panic!("{}", err.to_string()),
-        };
+            Err(err) => panic!("{}", err),
+        }
     }
 }
