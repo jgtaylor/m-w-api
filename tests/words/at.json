@@ -1,0 +1,2362 @@
+[
+  {
+    "meta": {
+      "id": "at",
+      "uuid": "3a8b7152-62a2-49ea-9e58-af3e03be2f12",
+      "src": "learners",
+      "section": "alpha",
+      "target": {
+        "tuuid": "15fe7cd5-42d9-45e7-8963-6ef47f1da4a2",
+        "tsrc": "collegiate"
+      },
+      "highlight": "yes",
+      "stems": [
+        "at",
+        "at it",
+        "at that",
+        "where it\u0027s at",
+        "where its at",
+        "where (someone) is at",
+        "where is at",
+        "where someone is at",
+        "at best",
+        "at worst",
+        "at its best",
+        "at its worst",
+        "while we\u0027re at it",
+        "while were at it"
+      ],
+      "app-shortdef": {
+        "hw": "at",
+        "fl": "preposition",
+        "def": [
+          "used to indicate the place where someone or something is",
+          "used to indicate the person or thing toward which an action, motion, or feeling is directed or aimed",
+          "used to indicate something that is being tried or attempted"
+        ]
+      },
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "at",
+      "prs": [
+        {
+          "ipa": "\u02c8\u00e6t",
+          "pun": ",",
+          "sound": {
+            "audio": "at000001"
+          }
+        },
+        {
+          "ipa": "\u0259t"
+        }
+      ]
+    },
+    "fl": "preposition",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used to indicate the place where someone or something is "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "We\u0027re staying {it}at{\/it} a hotel."
+                            },
+                            {
+                              "t": "The kitchen is {it}at{\/it} the back of the house."
+                            },
+                            {
+                              "t": "He was sitting {it}at{\/it} the table."
+                            },
+                            {
+                              "t": "They left for Cambridge early and arrived {it}at{\/it} [={it}in{\/it}] Cambridge before noon."
+                            },
+                            {
+                              "t": "The party will be {it}at{\/it} Susan\u0027s house. = The party will be {it}at{\/it} Susan\u0027s."
+                            },
+                            {
+                              "t": "Ann works {it}at{\/it} [={it}in{\/it}] a library."
+                            },
+                            {
+                              "t": "We met {it}at{\/it} a party."
+                            },
+                            {
+                              "t": "They live {it}at{\/it} opposite ends of town."
+                            },
+                            {
+                              "t": "They met {it}at{\/it} [={it}on{\/it}] a street corner in a town."
+                            },
+                            {
+                              "t": "{ldquo}Is your father {it}at{\/it} home?{rdquo} [=is your father home?] {ldquo}No, he\u0027s working late {it}at{\/it} the office.{rdquo}"
+                            },
+                            {
+                              "t": "She met us {it}at{\/it} the door."
+                            },
+                            {
+                              "t": "He was standing {it}at{\/it} [=next to] the window."
+                            },
+                            {
+                              "t": "There were 200 people {it}at{\/it} the wedding. [=200 people attended the wedding]"
+                            },
+                            {
+                              "t": "Their older son has graduated, but their younger son is still {it}at{\/it} school. [=is still attending school]"
+                            },
+                            {
+                              "t": "Who was {it}at{\/it} the controls when the accident occurred?"
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ],
+                "snotebox": [
+                  [
+                    "t",
+                    "The word {phrase}at{\/phrase} is used in speech in e-mail addresses."
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{ldquo}Can I e-mail you?{rdquo} {ldquo}Sure. Our e-mail address is \u2018comments {it}at{\/it} Merriam-Webster dot com.\u2019{rdquo}"
+                      }
+                    ]
+                  ],
+                  [
+                    "t",
+                    "In writing, the symbol @ is used instead."
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "comments@Merriam-Webster.com"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used to indicate the person or thing toward which an action, motion, or feeling is directed or aimed "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "She pointed her gun {it}at{\/it} the target."
+                            },
+                            {
+                              "t": "He\u0027s angry {it}at{\/it} his brother."
+                            },
+                            {
+                              "t": "His anger is directed {it}at{\/it} his brother."
+                            },
+                            {
+                              "t": "She shouted (words of) abuse {it}at{\/it} me."
+                            },
+                            {
+                              "t": "He looked directly {it}at{\/it} me."
+                            },
+                            {
+                              "t": "They laughed {it}at{\/it} him."
+                            },
+                            {
+                              "t": "She grabbed {it}at{\/it} my arm. [=she tried to grab my arm]"
+                            },
+                            {
+                              "t": "He poked {it}at{\/it} his food."
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used to indicate something that is being tried or attempted "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "I made an attempt {it}at{\/it} persuading him to go."
+                            },
+                            {
+                              "t": "I took a shot {it}at{\/it} doing it myself. [=I tried to do it myself]"
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "4",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}because of or in reaction to (something) "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "They laughed {it}at{\/it} my joke."
+                      },
+                      {
+                        "t": "She\u0027s furious {it}at{\/it} how slowly the investigation is proceeding."
+                      }
+                    ]
+                  ],
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used to indicate the cause of an action, feeling, etc. "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "I was greatly surprised {it}at{\/it} [={it}by{\/it}] the result. [=the result surprised me greatly]"
+                            },
+                            {
+                              "t": "He enlisted in the army {it}at{\/it} his father\u0027s urging. [=because his father urged him to]"
+                            },
+                            {
+                              "t": "She visited the museum {it}at{\/it} my suggestion."
+                            },
+                            {
+                              "t": "They came here {it}at{\/it} our invitation."
+                            },
+                            {
+                              "t": "You can act {it}at{\/it} your own discretion."
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "5",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used to indicate an activity "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "He\u0027s very serious when he\u0027s {it}at{\/it} work. [=when he\u0027s working]"
+                            },
+                            {
+                              "t": "children who are {it}at{\/it} play [=children who are playing]"
+                            },
+                            {
+                              "t": "She\u0027s good {it}at{\/it} (playing) chess. [=she plays chess well]"
+                            },
+                            {
+                              "t": "I\u0027m bad {it}at{\/it} cooking. [=I\u0027m a bad cook, I do not cook well]"
+                            },
+                            {
+                              "t": "She\u0027s doing very well {it}at{\/it} her studies."
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "6",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used to indicate a situation or condition "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "I\u0027m not {it}at{\/it} liberty to discuss that."
+                            },
+                            {
+                              "t": "{it}at{\/it} rest"
+                            },
+                            {
+                              "t": "two nations that are {it}at{\/it} war"
+                            },
+                            {
+                              "t": "people who are {it}at{\/it} risk"
+                            },
+                            {
+                              "t": "He is now {it}at{\/it} peace."
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "7 a",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used to indicate position on a scale or in a series "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "The temperature is {it}at{\/it} 90 degrees."
+                            },
+                            {
+                              "t": "He was driving {it}at{\/it} almost 80 miles an hour."
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used to indicate a rate "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "They sell {it}at{\/it} [={it}for{\/it}] a dollar a dozen. [=each dozen costs one dollar]"
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "8",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used to indicate an age or time "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "He plans to retire {it}at{\/it} (age) 65."
+                            },
+                            {
+                              "t": "He called us {it}at{\/it} (about\/exactly) 9 o\u0027clock on July 24."
+                            },
+                            {
+                              "t": "{it}at{\/it} dawn\/noon\/sunset\/night"
+                            },
+                            {
+                              "t": "I still think of her {it}at{\/it} certain moments\/times."
+                            },
+                            {
+                              "t": "He was president of the company {it}at{\/it} (the time of) his death."
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "9",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used to indicate the method by which something is done "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "The property was sold {it}at{\/it} auction."
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "10 a",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used in phrases like {phrase}at best{\/phrase}, {phrase}at worst{\/phrase}, etc., to indicate a possible result or condition that is considered best, worst, etc. "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "The company will make a small profit {it}at best{\/it} this year. [=it is not possible that the company will earn anything better\/more than a small profit]"
+                            },
+                            {
+                              "t": "We might be 5 or 10 minutes late {it}at worst{\/it}. [=we will not be more than 5 or 10 minutes late]"
+                            },
+                            {
+                              "t": "We should arrive by noon {it}at the latest{\/it}. [=we should not arrive later than noon]"
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used in phrases like {phrase}at its best{\/phrase}, {phrase}at its worst{\/phrase}, etc., to indicate that something or someone is as good, bad, etc., as possible "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "This is baseball {it}at its best{\/it}."
+                            },
+                            {
+                              "t": "He\u0027s often rude, and last night he was {it}at his worst{\/it}."
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "dros": [
+      {
+        "drp": "at it",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}doing some activity "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "I didn\u0027t expect her to have started working yet, but she was already (hard) {it}at it{\/it} when I arrived. [=she was already working (hard) when I arrived]"
+                          },
+                          {
+                            "t": "My neighbors are always arguing, and they were {it}at it{\/it} again last night. [=they were arguing again last night]"
+                          },
+                          {
+                            "t": "Since we\u0027re cleaning the kitchen, we should wash the floor {phrase}while we\u0027re at it{\/phrase}. [=we should wash the floor when we clean the kitchen]"
+                          },
+                          {
+                            "t": "{ldquo}I\u0027m going to the store to buy a newspaper.{rdquo} {ldquo}{it}While you\u0027re at it{\/it}, could you get some milk?{rdquo}"
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "at that",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{dx}see {dxt|that:1||}{\/dx}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "where it\u0027s at",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{dx}see {dxt|where:1||}{\/dx}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "where (someone) is at",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{dx}see {dxt|where:1||}{\/dx}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "shortdef": [
+      "\u2014used to indicate the place where someone or something is",
+      "\u2014used to indicate the person or thing toward which an action, motion, or feeling is directed or aimed",
+      "\u2014used to indicate something that is being tried or attempted"
+    ]
+  },
+  {
+    "meta": {
+      "id": "minute:1",
+      "uuid": "fa2e821a-9f7b-4028-ac54-17883dc068e8",
+      "src": "learners",
+      "section": "alpha",
+      "target": {
+        "tuuid": "55837906-8d1f-442f-b61f-632fd4b5d5b8",
+        "tsrc": "collegiate"
+      },
+      "highlight": "yes",
+      "stems": [
+        "minute",
+        "minutes",
+        "a laugh a minute",
+        "any minute",
+        "at\/on a minute\u0027s notice",
+        "at a minute\u0027s notice",
+        "on a minute\u0027s notice",
+        "at\/on a minutes notice",
+        "at a minutes notice",
+        "on a minutes notice",
+        "from minute to minute",
+        "from one minute to the next",
+        "minute by minute",
+        "hold\/hang on a minute",
+        "hang on a minute",
+        "hold on a minute",
+        "wait\/just a minute",
+        "just a minute",
+        "wait a minute",
+        "just this minute",
+        "not for a\/one minute",
+        "not for a minute",
+        "not for one minute",
+        "the minute",
+        "this minute",
+        "to the minute",
+        "within minutes",
+        "in a minute",
+        "at",
+        "now"
+      ],
+      "app-shortdef": {
+        "hw": "minute:1",
+        "fl": "noun",
+        "def": [
+          "{bc} a unit of time equal to 60 seconds {bc} one 60th of an hour",
+          "{bc} a brief period of time",
+          "{bc} the distance that can be traveled in a minute"
+        ]
+      },
+      "offensive": false
+    },
+    "hom": 1,
+    "hwi": {
+      "hw": "min*ute",
+      "prs": [
+        {
+          "ipa": "\u02c8m\u026an\u0259t",
+          "sound": {
+            "audio": "minute01"
+          }
+        }
+      ]
+    },
+    "fl": "noun",
+    "ins": [
+      {
+        "il": "plural",
+        "ifc": "-utes",
+        "if": "min*utes"
+      }
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sen",
+              {
+                "sn": "1",
+                "sgram": "count"
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a unit of time equal to 60 seconds {bc}one 60th of an hour "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "Bake the cake for 25-30 {it}minutes{\/it}."
+                      },
+                      {
+                        "t": "We waited for several {it}minutes{\/it}, but no one came to the door."
+                      },
+                      {
+                        "t": "He can run a six-{it}minute{\/it} mile. [=he can run a mile in six minutes]"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}a brief period of time {bc}{sx|moment||} "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "I saw him a {it}minute{\/it} ago."
+                      },
+                      {
+                        "t": "Dinner will be ready in just a few {it}minutes{\/it}."
+                      },
+                      {
+                        "t": "One {it}minute{\/it} it was sunny, the next it was pouring rain."
+                      },
+                      {
+                        "t": "Could I have a {it}minute{\/it} of your time? = Do you have a {it}minute{\/it}? = Could I speak to you for a {it}minute{\/it}? [=could I speak to you briefly?]"
+                      },
+                      {
+                        "t": "I\u0027m coming, just give me a {it}minute{\/it}. [=wait for me]"
+                      },
+                      {
+                        "t": "It was an excellent show. I enjoyed every {it}minute{\/it} of it. [=I enjoyed all of it]"
+                      },
+                      {
+                        "t": "I\u0027ll explain that {phrase}in a minute{\/phrase}. [=shortly, soon]"
+                      }
+                    ]
+                  ],
+                  [
+                    "text",
+                    "{dx}see also {dxt|last minute||}{\/dx}"
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "sgram": "count",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}the distance that can be traveled in a minute "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "My house is just a few {it}minutes{\/it} from here."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "bnote": "minutes",
+                "sgram": "plural",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}an official record of what was said and done in a meeting "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "The secretary read the {it}minutes{\/it} of the last meeting."
+                      },
+                      {
+                        "t": "The secretary took the {it}minutes{\/it} [=recorded in writing what happened] during the meeting."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "4",
+                "sgram": "count",
+                "sls": [
+                  "technical"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}one of 60 equal parts into which a degree can be divided for measuring angles "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "42 degrees and 30 {it}minutes{\/it}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "dros": [
+      {
+        "drp": "a laugh a minute",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{dx}see {dxt|laugh:2||}{\/dx}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "any minute",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "snote",
+                        [
+                          [
+                            "t",
+                            "If something could happen ({phrase}at{\/phrase} ) {phrase}any minute{\/phrase} ({phrase}now{\/phrase} ), it could happen very soon."
+                          ],
+                          [
+                            "vis",
+                            [
+                              {
+                                "t": "The bus should be here {it}any minute now{\/it}."
+                              },
+                              {
+                                "t": "I\u0027m expecting a phone call {it}any minute{\/it}."
+                              },
+                              {
+                                "t": "Things could change {it}at any minute{\/it}. [={it}at any moment{\/it}]"
+                              }
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "at\/on a minute\u0027s notice",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{dx}see {dxt|notice:1||}{\/dx}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "from minute to minute",
+        "vrs": [
+          {
+            "vl": "or",
+            "va": "from one minute to the next"
+          },
+          {
+            "vl": "or",
+            "va": "minute by minute"
+          }
+        ],
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}very quickly as time passes "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "Things kept changing {it}from minute to minute{\/it}. [={it}from moment to moment{\/it}]"
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "hold\/hang on a minute",
+        "vrs": [
+          {
+            "vl": "or",
+            "va": "wait\/just a minute"
+          }
+        ],
+        "def": [
+          {
+            "sls": [
+              "informal"
+            ],
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "1",
+                    "dt": [
+                      [
+                        "uns",
+                        [
+                          [
+                            [
+                              "text",
+                              "used to tell someone to wait or to stop for a brief time "
+                            ],
+                            [
+                              "vis",
+                              [
+                                {
+                                  "t": "{ldquo}Aren\u0027t you finished yet?{rdquo} {ldquo}{it}Hold on a minute{\/it}. I\u0027m almost done.{rdquo}"
+                                },
+                                {
+                                  "t": "{it}Hang on a minute{\/it}\u2014I didn\u0027t hear you. Could you repeat what you said?"
+                                }
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ],
+              [
+                [
+                  "sense",
+                  {
+                    "sn": "2",
+                    "dt": [
+                      [
+                        "uns",
+                        [
+                          [
+                            [
+                              "text",
+                              "used to express surprise or disbelief "
+                            ],
+                            [
+                              "vis",
+                              [
+                                {
+                                  "t": "Hey, {it}wait a minute{\/it}! That\u0027s not what you said yesterday!"
+                                }
+                              ]
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "just this minute",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{dx}see {dxt|just:2||}{\/dx}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "not for a\/one minute",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}at no time {bc}not at all {bc}{sx|never||} "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "I did {it}not{\/it} believe her {it}for one minute{\/it}. = {it}Not for one minute{\/it} did I believe her. [=I never believed her]"
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "the minute",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}as soon as "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "Please call me {it}the minute{\/it} you get home."
+                          },
+                          {
+                            "t": "I knew {it}the minute{\/it} (that) I saw it that I had to have this dress."
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "this minute",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}right now {bc}{sx|immediately||} "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "Stop it {it}this minute{\/it}!"
+                          },
+                          {
+                            "t": "I have to have the report {it}this minute{\/it}."
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "to the minute",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}exactly or precisely "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "The buses were on time {it}to the minute{\/it}."
+                          }
+                        ]
+                      ],
+                      [
+                        "text",
+                        "{dx}see also {dxt|up-to-the-minute||}{\/dx}"
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "drp": "within minutes",
+        "def": [
+          {
+            "sseq": [
+              [
+                [
+                  "sense",
+                  {
+                    "dt": [
+                      [
+                        "text",
+                        "{bc}within a very short amount of time "
+                      ],
+                      [
+                        "vis",
+                        [
+                          {
+                            "t": "We called an ambulance and it arrived {it}within minutes{\/it}."
+                          }
+                        ]
+                      ]
+                    ]
+                  }
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "shortdef": [
+      "a unit of time equal to 60 seconds : one 60th of an hour",
+      "a brief period of time : moment",
+      "the distance that can be traveled in a minute"
+    ]
+  },
+  {
+    "meta": {
+      "id": "at-home",
+      "uuid": "292631c4-ec52-423f-9c16-182973d4242f",
+      "src": "learners",
+      "section": "alpha",
+      "target": {
+        "tuuid": "d710e5f5-9110-4d8f-8c9b-2ff081aa026c",
+        "tsrc": "collegiate"
+      },
+      "stems": [
+        "at-home"
+      ],
+      "app-shortdef": {
+        "hw": "at-home",
+        "fl": "adjective",
+        "def": [
+          "{bc} made to be used in the home",
+          "{bc} happening at someone\u0027s home",
+          "{bc} not employed outside the home"
+        ]
+      },
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "at-home",
+      "prs": [
+        {
+          "ipa": "\u0259t\u02c8ho\u028am",
+          "sound": {
+            "audio": "at_hom01"
+          }
+        }
+      ]
+    },
+    "fl": "adjective",
+    "lbs": [
+      "always used before a noun"
+    ],
+    "def": [
+      {
+        "sls": [
+          "US"
+        ],
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}made to be used in the home "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "She uses an {it}at-home{\/it} blood test to monitor her blood levels."
+                      },
+                      {
+                        "t": "{it}at-home{\/it} exercise equipment"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}happening at someone\u0027s home "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{it}at-home{\/it} entertainment"
+                      },
+                      {
+                        "t": "one of the star\u0027s rare {it}at-home{\/it} interviews"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}not employed outside the home "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "an {it}at-home{\/it} [=(more commonly) {it}stay-at-home{\/it}] mother\/father"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "made to be used in the home",
+      "happening at someone\u0027s home",
+      "not employed outside the home"
+    ]
+  },
+  {
+    "meta": {
+      "id": "attorney at law",
+      "uuid": "7dc1bd12-3935-448d-978e-fa8edbb692e6",
+      "src": "learners",
+      "section": "alpha",
+      "stems": [
+        "attorney at law",
+        "attorneys at law"
+      ],
+      "app-shortdef": {
+        "hw": "attorney at law",
+        "fl": "noun",
+        "def": [
+          "{it}chiefly US{\/it}, {it}formal{\/it}"
+        ]
+      },
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "attorney at law"
+    },
+    "fl": "noun",
+    "ins": [
+      {
+        "il": "plural",
+        "if": "attorneys at law"
+      }
+    ],
+    "gram": "count",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sls": [
+                  "chiefly US",
+                  "formal"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}{sx|lawyer||}"
+                  ],
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "used chiefly as a title "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "John Smith, {it}Attorney at Law{\/it}"
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "lawyer\u2014used chiefly as a title"
+    ]
+  },
+  {
+    "meta": {
+      "id": "down-at-the-heels",
+      "uuid": "1f4ac2bc-8384-44ba-baf4-5e181eef2395",
+      "src": "learners",
+      "section": "alpha",
+      "target": {
+        "tuuid": "a89ea48f-475a-42a3-9dca-02596171dd9b",
+        "tsrc": "collegiate"
+      },
+      "stems": [
+        "down-at-the-heels",
+        "down-at-heel",
+        "down-at-heels",
+        "down-at-the-heel"
+      ],
+      "app-shortdef": {
+        "hw": "down-at-the-heels",
+        "fl": "adjective",
+        "def": [
+          "{bc} looking or seeming cheap or poor and dirty or worn"
+        ]
+      },
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "down-at-the-heels",
+      "psl": "chiefly US"
+    },
+    "vrs": [
+      {
+        "vl": "or chiefly British",
+        "va": "down-at-heel"
+      }
+    ],
+    "fl": "adjective",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}looking or seeming cheap or poor and dirty or worn "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "We got a room at a {it}down-at-the-heels{\/it} [={it}dingy{\/it}, {it}seedy{\/it}] motel."
+                      },
+                      {
+                        "t": "a {it}down-at-heel{\/it} traveler"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "looking or seeming cheap or poor and dirty or worn"
+    ]
+  },
+  {
+    "meta": {
+      "id": "ill at ease",
+      "uuid": "fb841c16-b2a7-47b4-a609-6811b3b02563",
+      "src": "learners",
+      "section": "alpha",
+      "target": {
+        "tuuid": "a66d6a5d-0b4a-4b6c-a56b-75a1ec4ca6dc",
+        "tsrc": "collegiate"
+      },
+      "stems": [
+        "ill at ease"
+      ],
+      "app-shortdef": {
+        "hw": "ill at ease",
+        "fl": "adjective",
+        "def": [
+          "{bc} not comfortable or relaxed {bc} nervous or embarrassed"
+        ]
+      },
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "ill at ease"
+    },
+    "fl": "adjective",
+    "gram": "more ~; most ~",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}not comfortable or relaxed {bc}nervous or embarrassed "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "Their stares made us (feel) {it}ill at ease{\/it}."
+                      },
+                      {
+                        "t": "He seemed {it}ill at ease{\/it} when we spoke with him."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "not comfortable or relaxed : nervous or embarrassed"
+    ]
+  },
+  {
+    "meta": {
+      "id": "stay-at-home",
+      "uuid": "7798b7cd-d296-49a4-abd4-77aab86df8b5",
+      "src": "learners",
+      "section": "alpha",
+      "target": {
+        "tuuid": "0b4eb5fb-fde6-405d-8ec0-d3c13e0f8f35",
+        "tsrc": "collegiate"
+      },
+      "stems": [
+        "stay-at-home",
+        "stay-at-homes"
+      ],
+      "app-shortdef": {
+        "hw": "stay-at-home",
+        "fl": "adjective",
+        "def": [
+          "{bc} staying at home to take care of a child instead of working somewhere else"
+        ]
+      },
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "stay-at-home",
+      "prs": [
+        {
+          "ipa": "\u02c8stej\u0259t\u02c8ho\u028am",
+          "sound": {
+            "audio": "stayat01"
+          }
+        }
+      ]
+    },
+    "fl": "adjective",
+    "lbs": [
+      "always used before a noun"
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}staying at home to take care of a child instead of working somewhere else "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a {it}stay-at-home{\/it} mom\/dad"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "staying at home to take care of a child instead of working somewhere else"
+    ]
+  },
+  {
+    "meta": {
+      "id": "accuse",
+      "uuid": "ef1f5930-2eb7-4120-a750-e5fe98da37ce",
+      "src": "learners",
+      "section": "alpha",
+      "target": {
+        "tuuid": "15fc8de8-2a71-45bd-b00e-cf62ed2da060",
+        "tsrc": "collegiate"
+      },
+      "highlight": "yes",
+      "stems": [
+        "accuse",
+        "accuses",
+        "accused",
+        "accusing",
+        "accuser",
+        "accusers",
+        "accusingly",
+        "stands accused of",
+        "pointed an accusing finger at"
+      ],
+      "app-shortdef": {
+        "hw": "accuse",
+        "fl": "verb",
+        "def": [
+          "{bc} to blame (someone) for something wrong or illegal {bc} to say that someone is guilty of a fault or crime"
+        ]
+      },
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "ac*cuse",
+      "prs": [
+        {
+          "ipa": "\u0259\u02c8kju\u02d0z",
+          "sound": {
+            "audio": "accuse01"
+          }
+        }
+      ]
+    },
+    "fl": "verb",
+    "ins": [
+      {
+        "ifc": "-cus*es",
+        "if": "ac*cus*es"
+      },
+      {
+        "ifc": "-cused",
+        "if": "ac*cused"
+      },
+      {
+        "ifc": "-cus*ing",
+        "if": "ac*cus*ing"
+      }
+    ],
+    "gram": "+ obj",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "dt": [
+                  [
+                    "text",
+                    "{bc}to blame (someone) for something wrong or illegal {bc}to say that someone is guilty of a fault or crime "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "He was unjustly {it}accused{\/it}."
+                      }
+                    ]
+                  ],
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "often + {it}of{\/it} "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "He was {it}accused of{\/it} stealing the money."
+                            },
+                            {
+                              "t": "His children have {it}accused{\/it} him {it}of{\/it} neglect."
+                            },
+                            {
+                              "t": "You can\u0027t {it}accuse{\/it} him {it}of{\/it} being rude: he\u0027s always extremely polite."
+                            },
+                            {
+                              "t": "She has been {it}accused of{\/it} murder. = She {phrase}stands accused of{\/phrase} murder."
+                            }
+                          ]
+                        ]
+                      ],
+                      [
+                        [
+                          "text",
+                          "sometimes used humorously "
+                        ],
+                        [
+                          "vis",
+                          [
+                            {
+                              "t": "No one could ever {it}accuse{\/it} him {it}of{\/it} being overly modest. [=he is not modest]"
+                            }
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "uros": [
+      {
+        "ure": "ac*cus*er",
+        "fl": "noun",
+        "ins": [
+          {
+            "il": "plural",
+            "ifc": "-ers",
+            "if": "ac*cus*ers"
+          }
+        ],
+        "gram": "count",
+        "utxt": [
+          [
+            "vis",
+            [
+              {
+                "t": "She deserves the chance to meet\/confront her {it}accuser{\/it}."
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "ure": "accusing",
+        "fl": "adjective",
+        "gram": "more ~; most ~",
+        "utxt": [
+          [
+            "vis",
+            [
+              {
+                "t": "She gave him a very {it}accusing{\/it} look."
+              },
+              {
+                "t": "The governor {phrase}pointed an accusing finger at{\/phrase} the legislature [=said the legislature was to blame] for failing to approve her budget."
+              }
+            ]
+          ]
+        ]
+      },
+      {
+        "ure": "ac*cus*ing*ly",
+        "prs": [
+          {
+            "ipa": "\u0259\u02c8k\u02b0ju\u02d0z\u026a\u014bli",
+            "sound": {
+              "audio": "accusi01"
+            }
+          }
+        ],
+        "fl": "adverb",
+        "utxt": [
+          [
+            "vis",
+            [
+              {
+                "t": "She looked at him {it}accusingly{\/it}."
+              },
+              {
+                "t": "{ldquo}What did you do?{rdquo} he asked {it}accusingly{\/it}."
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "to blame (someone) for something wrong or illegal : to say that someone is guilty of a fault or crime \u2014often + of \u2014sometimes used humorously"
+    ]
+  },
+  {
+    "meta": {
+      "id": "acquaintance",
+      "uuid": "6e18c084-4bb9-41c8-a3fe-f778e06efd44",
+      "src": "learners",
+      "section": "alpha",
+      "target": {
+        "tuuid": "5f97c2c7-342f-4796-9db9-bfa77c7ccf0e",
+        "tsrc": "collegiate"
+      },
+      "stems": [
+        "acquaintance",
+        "acquaintances",
+        "acquaintanceship",
+        "acquaintanceships",
+        "make your acquaintance",
+        "made the acquaintance of",
+        "struck up an acquaintance with",
+        "of my acquaintance",
+        "on\/at first acquaintance",
+        "at first acquaintance",
+        "on first acquaintance",
+        "on closer\/further acquaintance",
+        "on closer acquaintance",
+        "on further acquaintance",
+        "more than a passing acquaintance with"
+      ],
+      "app-shortdef": {
+        "hw": "acquaintance",
+        "fl": "noun",
+        "def": [
+          "{bc} someone who is known but who is not a close friend",
+          "{it}formal{\/it} {bc} the state of knowing someone in a personal or social way {bc} the state of knowing someone as an acquaintance",
+          "{bc} knowledge about something"
+        ]
+      },
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "ac*quain*tance",
+      "prs": [
+        {
+          "ipa": "\u0259\u02c8kwe\u026antn\u0329s",
+          "sound": {
+            "audio": "acquai02"
+          }
+        }
+      ]
+    },
+    "fl": "noun",
+    "ins": [
+      {
+        "il": "plural",
+        "ifc": "-tanc*es",
+        "if": "ac*quain*tanc*es"
+      }
+    ],
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "sgram": "count",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}someone who is known but who is not a close friend "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "Is he an {it}acquaintance{\/it} of yours? [=have you met him?]"
+                      },
+                      {
+                        "t": "She ran into an old {it}acquaintance{\/it} at the grocery store."
+                      },
+                      {
+                        "t": "My wife and I met through a mutual {it}acquaintance{\/it}. [=a friend introduced us to each other]"
+                      },
+                      {
+                        "t": "a casual {it}acquaintance{\/it}"
+                      },
+                      {
+                        "t": "friends and {it}acquaintances{\/it}"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "2",
+                "sgram": "noncount",
+                "sls": [
+                  "formal"
+                ],
+                "dt": [
+                  [
+                    "text",
+                    "{bc}the state of knowing someone in a personal or social way {bc}the state of knowing someone as an acquaintance "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "our family\u0027s close {it}acquaintance{\/it} with our neighbors"
+                      },
+                      {
+                        "t": "It\u0027s a pleasure to {phrase}make your acquaintance{\/phrase}. [=(less formally) it\u0027s nice to meet you]"
+                      },
+                      {
+                        "t": "She {phrase}made the acquaintance of{\/phrase} [=she met] a man from the city."
+                      },
+                      {
+                        "t": "She {phrase}struck up an acquaintance with{\/phrase} a man from the city."
+                      },
+                      {
+                        "t": "a doctor {phrase}of my acquaintance{\/phrase} [=a doctor that I know]"
+                      },
+                      {
+                        "t": "He seemed cold {phrase}on\/at first acquaintance{\/phrase} [=when I first met him], but later I realized that he was just shy."
+                      },
+                      {
+                        "t": "He seemed cold at first, but {phrase}on closer\/further acquaintance{\/phrase} I realized that he was just shy."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "sense",
+              {
+                "sn": "3",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}knowledge about something"
+                  ],
+                  [
+                    "uns",
+                    [
+                      [
+                        [
+                          "text",
+                          "+ {it}with{\/it}"
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    "wsgram",
+                    "singular"
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "She has only a nodding\/slight\/superficial {it}acquaintance with{\/it} the facts of the case. [=she knows only a little about the facts of the case]"
+                      },
+                      {
+                        "t": "He has {phrase}more than a passing acquaintance with{\/phrase} wine. [=he knows a lot about wine]"
+                      }
+                    ]
+                  ],
+                  [
+                    "wsgram",
+                    "noncount"
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "While he has some {it}acquaintance with{\/it} the subject, he is not an expert."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "uros": [
+      {
+        "ure": "acquaintanceship",
+        "fl": "noun",
+        "ins": [
+          {
+            "il": "plural",
+            "ifc": "-ships",
+            "if": "acquaintanceships"
+          }
+        ],
+        "utxt": [
+          [
+            "wsgram",
+            "count"
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "An {it}acquaintanceship{\/it} grew between the two men."
+              }
+            ]
+          ],
+          [
+            "wsgram",
+            "noncount"
+          ],
+          [
+            "vis",
+            [
+              {
+                "t": "Her long {it}acquaintanceship{\/it} [={it}acquaintance{\/it}] with sorrow began when her young husband died."
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "someone who is known but who is not a close friend",
+      "the state of knowing someone in a personal or social way : the state of knowing someone as an acquaintance",
+      "knowledge about something\u2014+ with"
+    ]
+  },
+  {
+    "meta": {
+      "id": "advanced",
+      "uuid": "5dac2779-78c7-48c3-a564-3e10482ff5a5",
+      "src": "learners",
+      "section": "alpha",
+      "target": {
+        "tuuid": "6efb497a-f884-4b5b-9283-f41fd3a9fea4",
+        "tsrc": "collegiate"
+      },
+      "stems": [
+        "advanced",
+        "advanced degree",
+        "at an advanced age",
+        "advanced in age\/years",
+        "advanced in age",
+        "advanced in years",
+        "of advanced age\/years",
+        "of advanced age",
+        "of advanced years"
+      ],
+      "app-shortdef": {
+        "hw": "advanced",
+        "fl": "adjective",
+        "def": [
+          "{bc} beyond the basic level",
+          "{bc} far along in a course of progress or development: such as",
+          "{bc} having developed more than others"
+        ]
+      },
+      "offensive": false
+    },
+    "hwi": {
+      "hw": "ad*vanced",
+      "prs": [
+        {
+          "ipa": "\u0259d\u02c8v\u00e6nst",
+          "pun": ","
+        },
+        {
+          "l": "British",
+          "ipa": "\u0259d\u02c8v\u0251\u02d0nst"
+        }
+      ]
+    },
+    "fl": "adjective",
+    "gram": "more ~; most ~",
+    "def": [
+      {
+        "sseq": [
+          [
+            [
+              "sense",
+              {
+                "sn": "1",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}beyond the basic level "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{it}advanced{\/it} mathematics"
+                      },
+                      {
+                        "t": "She\u0027s taking an {it}advanced{\/it} course in English. = She\u0027s taking a course in {it}advanced{\/it} English."
+                      },
+                      {
+                        "t": "The school has courses for elementary, intermediate, and {it}advanced{\/it} students."
+                      },
+                      {
+                        "t": "The book explains both basic and {it}advanced{\/it} techniques."
+                      },
+                      {
+                        "t": "The job requires someone with an {phrase}advanced degree{\/phrase}. [=a degree (such as a master\u0027s degree or a PhD) that is higher than a bachelor\u0027s degree]"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ],
+          [
+            [
+              "bs",
+              {
+                "sense": {
+                  "sn": "2",
+                  "dt": [
+                    [
+                      "text",
+                      "{bc}far along in a course of progress or development: such as"
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "a",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}having developed more than others "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "a highly {it}advanced{\/it} civilization [=a modern civilization]"
+                      },
+                      {
+                        "t": "an {it}advanced{\/it} society"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "b",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}having or using new and modern methods "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "{it}advanced{\/it} technology"
+                      },
+                      {
+                        "t": "technologically {it}advanced{\/it} weapons"
+                      },
+                      {
+                        "t": "The system has many {it}advanced{\/it} features."
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "c",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}having reached a bad state or condition "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "The house was in an {it}advanced{\/it} state of disrepair. [=the house was in very poor condition]"
+                      },
+                      {
+                        "t": "The disease is in an {it}advanced{\/it} stage."
+                      },
+                      {
+                        "t": "an {it}advanced{\/it} form of cancer"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ],
+            [
+              "sense",
+              {
+                "sn": "d",
+                "dt": [
+                  [
+                    "text",
+                    "{bc}far along in a process of aging "
+                  ],
+                  [
+                    "vis",
+                    [
+                      {
+                        "t": "She began painting {phrase}at an advanced age{\/phrase}. [=she began painting when she was old]"
+                      },
+                      {
+                        "t": "He is rather {phrase}advanced in age\/years{\/phrase}. [=rather old]"
+                      },
+                      {
+                        "t": "a man\/woman {phrase}of advanced age\/years{\/phrase} [=an old man\/woman]"
+                      }
+                    ]
+                  ]
+                ]
+              }
+            ]
+          ]
+        ]
+      }
+    ],
+    "shortdef": [
+      "beyond the basic level",
+      "far along in a course of progress or development: such as",
+      "having developed more than others"
+    ]
+  }
+]
