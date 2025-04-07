@@ -67,7 +67,7 @@ mod test {
 		]
         "#;
 
-        let result: Result<Vec<SenseObject.object>, Error> = serde_json::from_str(&myjson);
+        let result: Result<Vec<SenseObject>, Error> = serde_json::from_str(&myjson);
         let _ = match result {
             Ok(res) => {
                 dbg!(res)
