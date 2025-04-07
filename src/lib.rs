@@ -128,6 +128,95 @@ macro_rules! tagged_vec {
     };
 }
 
+#[macro_export]
+macro_rules! tagged_object {
+    ($name:ident, $tag:ty, $inner:ty) => {
+        #[derive(Debug, Clone, Serialize)]
+        pub struct $name {
+            tag: Option<$tag>,
+            object: $inner,
+        }
+
+        impl<'de> serde::de::Deserialize<'de> for $name {
+            fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
+            where
+                D: serde::de::Deserializer<'de>,
+            {
+                deserializer.deserialize_struct(stringify!($inner), &[], TaggedObjectVisitor::<$tag, $inner>)
+            }
+        }
+
+        struct TaggedObjectVisitor<T, U> {
+            marker: std::marker::PhantomData<(T, U)>, // T is the tag type and U is the inner object type
+        }
+
+        impl<'de, 'a, T, U> serde::de::Visitor<'de> for TaggedObjectVisitor<T, U>
+        where
+            T: serde::de::Deserialize<'de>,
+            U: serde::de::Deserialize<'de>,
+        {
+            type Value = $name;
+
+            fn expecting(&self, formatter: &mut std::fmt::Formatter) -> std::fmt::Result {
+                formatter.write_str("an object with an optional tag and a main object")
+            }
+
+            fn visit_map<A>(self, mut map: A) -> Result<$name, A::Error>
+            where
+                A: serde::de::MapAccess<'de>,
+            {
+                let mut tag = None;
+                let mut value = None;
+
+                while let Some(key) = map.next_key::<String>()? {
+                    match key.as_str() {
+                        "tag" => {
+                            if value.is_some() {
+                                return Err(serde::de::Error::duplicate_field("tag"));
+                            }
+                            tag = Some(map.next_value()?);
+                        }
+                        _ => {
+                            if value.is_none() {
+                                value = Some(map.next_value()?);
+                            } else {
+                                return Err(serde::de::Error::unknown_field(&key, &[]));
+                            }
+                        }
+                    }
+                }
+
+                Ok($name { tag, object: value.unwrap_or_default() })
+            }
+        }
+
+        impl From<$inner> for $name {
+            fn from(object: $inner) -> Self {
+                $name {
+                    tag: None,
+                    object,
+                }
+            }
+        }
+
+        // Deref implementation to access inner fields directly
+        impl std::ops::Deref for $name {
+            type Target = $inner;
+
+            fn deref(&self) -> &Self::Target {
+                &self.object
+            }
+        }
+
+        impl std::ops::DerefMut for $name {
+            fn deref_mut(&mut self) -> &mut Self::Target {
+                &mut self.object
+            }
+        }
+    };
+}
+
+
 #[cfg(test)]
 mod tests {
     use super::*;
