@@ -12,9 +12,9 @@ tagged_string!(DefiningText, "text");
 
 #[cfg(test)]
 mod tests {
-    use serde_json::Error;
-
     use crate::entry::definition_text;
+    use colored::Colorize;
+    use serde_json::Error;
 
     use super::*;
 
@@ -28,8 +28,8 @@ mod tests {
         "#;
         let result: Result<DefiningText, Error> = serde_json::from_str(&myjson);
         let _ = match result {
-            Ok(res) => dbg!(res),
-            Err(err) => panic!("{:#?}", err),
+            Ok(res) => println!("DefiningText: {}", res.0.as_str().green()),
+            Err(err) => panic!("{}: {:#?}", "Error".red(), err),
         };
     }
 
@@ -68,12 +68,16 @@ mod tests {
                         DefinitionTextType::Text(t) => {
                             println!(
                                 "DefiningText: {}",
-                                <&definition_text::DefiningText as Into<&str>>::into(&t)
+                                <&definition_text::DefiningText as Into<&str>>::into(&t).on_bright_yellow()
                             );
                         }
                         DefinitionTextType::VerbalIllustration(v) => {
                             for (idx, illustration_text) in v.iter().enumerate() {
-                                println!("Illustration #{}: {}", idx, illustration_text.text);
+                                println!(
+                                    "Illustration #{}: {}",
+                                    idx,
+                                    illustration_text.text.on_bright_magenta()
+                                );
                             }
                         }
                     };
