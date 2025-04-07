@@ -3,8 +3,15 @@ use super::{
     Variant, definition_text::DefinitionTextType, divided_sense::DividedSense,
     pronunciation::Pronunciation,
 };
+use crate::tagged_object;
 
 #[derive(Debug, Clone, Deserialize, Serialize)]
+pub enum SenseKey {
+    #[serde(rename = "sense")]
+    Key,
+}
+
+#[derive(Debug, Default, Clone, Deserialize, Serialize)]
 pub struct Sense {
     #[serde(rename = "sn")]
     sense_number: Option<String>,
@@ -28,11 +35,14 @@ pub struct Sense {
     variants: Option<Vec<Variant>>,
 }
 
+tagged_object!(SenseObject, SenseKey, Sense);
 
 #[cfg(test)]
 mod test {
     use super::*;
+    use serde_json::Error;
 
+    #[test]
     fn test_sense_object() {
         let myjson = r#"
         [
@@ -56,5 +66,13 @@ mod test {
 			}
 		]
         "#;
+
+        let result: Result<Vec<SenseObject.object>, Error> = serde_json::from_str(&myjson);
+        let _ = match result {
+            Ok(res) => {
+                dbg!(res)
+            }
+            Err(err) => panic!("{}", err),
+        };
     }
 }
